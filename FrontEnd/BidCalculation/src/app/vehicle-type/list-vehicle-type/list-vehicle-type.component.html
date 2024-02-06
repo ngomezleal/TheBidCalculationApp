@@ -1,0 +1,10 @@
+<mat-form-field>
+  <mat-select placeholder="Select vehicle type" formControlName="vehicleTypeFormControl" 
+      (selectionChange)="vehicleTypeSelected($event.value)" [(value)]="selected">
+    <mat-select-trigger>{{selected.name}}</mat-select-trigger>
+    <mat-option *ngFor="let item of resultsVehicleType" [value]="item">
+      {{ item.name }}
+      <i class="material-icons">commute</i>
+    </mat-option>
+  </mat-select>
+</mat-form-field>

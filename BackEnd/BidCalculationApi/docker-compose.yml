@@ -1,0 +1,13 @@
+version: '3.4'
+
+services:
+  bidcalculationapi:
+    image: ${DOCKER_REGISTRY-}bidcalculationapi
+    build:
+      context: .
+      dockerfile: BidCalculationApi/Dockerfile
+
+networks:
+ default:
+  external:
+   name: bidnetwork

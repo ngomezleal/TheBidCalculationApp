@@ -1,0 +1,12 @@
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\ProgiTest\BidCalculationApp\BackEnd\BidCalculationApi\BidCalculation.Domain\bin\Debug\net8.0\BidCalculation.Domain.deps.json
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\ProgiTest\BidCalculationApp\BackEnd\BidCalculationApi\BidCalculation.Domain\bin\Debug\net8.0\BidCalculation.Domain.dll
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\ProgiTest\BidCalculationApp\BackEnd\BidCalculationApi\BidCalculation.Domain\bin\Debug\net8.0\BidCalculation.Domain.pdb
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\ProgiTest\BidCalculationApp\BackEnd\BidCalculationApi\BidCalculation.Domain\obj\Debug\net8.0\BidCalculation.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\ProgiTest\BidCalculationApp\BackEnd\BidCalculationApi\BidCalculation.Domain\obj\Debug\net8.0\BidCalculation.Domain.AssemblyInfoInputs.cache
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\ProgiTest\BidCalculationApp\BackEnd\BidCalculationApi\BidCalculation.Domain\obj\Debug\net8.0\BidCalculation.Domain.AssemblyInfo.cs
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\ProgiTest\BidCalculationApp\BackEnd\BidCalculationApi\BidCalculation.Domain\obj\Debug\net8.0\BidCalculation.Domain.csproj.CoreCompileInputs.cache
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\ProgiTest\BidCalculationApp\BackEnd\BidCalculationApi\BidCalculation.Domain\obj\Debug\net8.0\BidCalculation.Domain.sourcelink.json
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\ProgiTest\BidCalculationApp\BackEnd\BidCalculationApi\BidCalculation.Domain\obj\Debug\net8.0\BidCalculation.Domain.dll
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\ProgiTest\BidCalculationApp\BackEnd\BidCalculationApi\BidCalculation.Domain\obj\Debug\net8.0\refint\BidCalculation.Domain.dll
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\ProgiTest\BidCalculationApp\BackEnd\BidCalculationApi\BidCalculation.Domain\obj\Debug\net8.0\BidCalculation.Domain.pdb
+C:\Users\ngome\OneDrive\Documentos\Proyectos BackEnd\ProgiTest\BidCalculationApp\BackEnd\BidCalculationApi\BidCalculation.Domain\obj\Debug\net8.0\ref\BidCalculation.Domain.dll

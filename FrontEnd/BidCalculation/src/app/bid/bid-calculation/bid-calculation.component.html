@@ -1,0 +1,90 @@
+<div class="topnav">
+  <div class="container">
+    <div>
+      <mat-form-field class="">
+        <mat-label>Vehicle base price</mat-label>
+        <input matInput type="number" [(ngModel)]="vehicleBasePrice">
+        @if (vehicleBasePrice) {
+          <button matSuffix mat-icon-button aria-label="Clear" (click)="vehicleBasePrice=0">
+            <mat-icon>close</mat-icon>
+          </button>
+        }
+      </mat-form-field>
+    </div>
+    <div>
+      <app-list-vehicle-type (onVehicleType)="vehicleType($event)" ></app-list-vehicle-type>
+    </div>  
+    <div>
+      <button mat-fab extended (click)="calculate()">
+        <mat-icon>score</mat-icon>
+          Calculate
+        </button>
+    </div>
+    <div>
+      <app-spinner [show]="show" [size]="150"></app-spinner>
+    </div>
+  </div>
+</div>
+
+<div class="row">
+  <div class="leftcolumn">
+    <div class="card">
+      <h2>Seller Special Fee</h2>
+      <div class="fakeimg">
+        <app-list-seller-special-fee [specialFeeId]="specialFeeId"> </app-list-seller-special-fee>
+      </div>
+    </div>
+    <div class="card">
+      <h2>Association Fee</h2>
+      <div class="fakeimg">
+        <app-list-association-fee [associationFeeId]="associationFeeId" ></app-list-association-fee>
+      </div>
+    </div>
+  </div>
+  <div class="rightcolumn">
+    <div class="card">
+      <h2>Results</h2>
+      <div class="fakeimg">
+        <mat-card class="example-card">
+          <mat-card-content>
+            <mat-list role="list">
+              <mat-list-item role="listitem">
+                <mat-icon class="mat-24">directions_car</mat-icon>
+                Vehicle Price {{valueVehicleTypeName}}: {{vehicleBasePrice | currency}}
+              </mat-list-item>
+              <mat-list-item role="listitem">
+                <mat-icon class="mat-24">money</mat-icon>
+                Basic fee {{basicUserFee | currency}}
+              </mat-list-item>
+              <mat-list-item role="listitem">
+                <mat-icon class="mat-24">star</mat-icon>
+                Special fee {{specialFee | currency}}
+              </mat-list-item>
+              <mat-list-item role="listitem">
+                <mat-icon class="mat-24">account_balance_wallet</mat-icon>
+                Association fee {{associationFee | currency}}
+              </mat-list-item>
+              <mat-list-item role="listitem">
+                <mat-icon class="mat-24">storage</mat-icon>
+                Storage fee {{fixedAmount | currency}}
+              </mat-list-item>
+            </mat-list>
+          </mat-card-content>
+        </mat-card>
+      </div>
+
+      <div class="fakeimg">
+        <mat-card class="example-card">
+          <mat-card-content>
+            <mat-list role="list">
+              <mat-list-item role="listitem">
+                <h1 class="total"><mat-icon class="mat-24">attach_money</mat-icon> Total {{totalFee | currency}}</h1>
+              </mat-list-item>
+            </mat-list>
+          </mat-card-content>
+        </mat-card>
+      </div>
+    </div>
+  </div>
+</div>
+
